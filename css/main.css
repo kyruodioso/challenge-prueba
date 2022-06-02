@@ -54,6 +54,27 @@ and (min-width : 769px) {
     color: #10CCEC;
     text-transform: uppercase;
   }
+  h2{
+    font-size:32px;
+  }
+  .btn-warning{
+    background-color:#F8CE75;
+    padding: 22px;
+  }
+  footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    color:#0064A8;
+    line-height:36px;
+  }
+  footer .btn{
+    text-align: center;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 3.2px;
+    color: #162E5A;
+    text-transform: uppercase;
+    opacity: 1;
+  }
 
 }
 @media only screen
