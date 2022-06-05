@@ -26,12 +26,16 @@ a, button { cursor: pointer;
 
 @media only screen
 and (min-width : 769px) {
-  body{
-    background-color: #ec0000;
-  }
+
   .img-fluid {
     width: 100%;
   }
+  .title-box{
+    position: absolute;
+    margin-bottom: 40px;
+  }
+
+
   .card{
     background-color: #fff;
     border: 1px solid #707070;
