@@ -34,8 +34,6 @@ and (min-width : 769px) {
     position: absolute;
     margin-bottom: 40px;
   }
-
-
   .card{
     background-color: #fff;
     border: 1px solid #707070;
@@ -80,6 +78,21 @@ and (min-width : 769px) {
     opacity: 1;
     margin-top: 23px;
   }
+
+.modal{ 
+  text-align:center;
+  position: absolute;
+  background-color: #FFFFFF;
+}
+.modal-container{
+  display:none;
+  border: 1px solid #707070;
+  height:712px;
+
+}
+.modal-container h2{ 
+  margin-top: 10px;
+}
 
 }
 @media only screen
